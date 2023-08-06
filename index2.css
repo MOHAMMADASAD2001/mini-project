@@ -15,12 +15,7 @@ body {
 button:focus {
     outline: none;
 }
-#navbarNav {
-    display: flex;
-    
-    align-items: center;
-    height: 60px; /* Set the desired height of the navbar */
-}
+
 .navbar-brand img {
     width: 150px;
 }
@@ -47,7 +42,6 @@ button:focus {
     font-size: larger;
     margin-right: 10px;
     padding: 8px;
-    text-decoration: none;
 }
 
 .log-link:hover {
@@ -55,21 +49,9 @@ button:focus {
     transition: 0.3s;
     text-decoration: underline;
 }
-.nav-link {
-    color: white;
-    font-size: larger;
-    margin-right: 10px;
-    padding: 8px;
-    text-decoration: none;
-}
-.nav-link:hover {
-    color: #F0A500;
-    transition: 0.3s;
-    text-decoration: underline;
-}
 
-.navbar-brand, #navbarNav {
-    margin-left: auto;
+#navbarNav {
+    justify-content: end;
 }
 
 
